@@ -1,0 +1,81 @@
+.carousel-control.left, .carousel-control.right {
+  z-index: 1;
+}
+
+#mainContain {
+  height:100%;
+}
+.carousel-inner>.item>img {
+ width:100%;
+ height: 100%
+}
+
+.carousel.slide {
+  height: calc(100% - 80px);
+}
+
+.carousel-inner>.item>img {
+ width:100%;
+ height: 100%
+}
+
+/* ^^home page end */
+
+
+.pageHeading {
+	color: white;
+	font-family: arial black;
+	text-shadow: 0px 4px 2px black;
+	margin: 40px auto 40px;
+}
+
+li {
+	list-style: none;
+}
+
+.secondHeading {
+	font-family: arial;
+	color: silver;
+	margin: 20px;
+}
+
+.colWrap{
+position:relative; 
+height:200px;
+margin: 20px auto 80px; 
+width:80%;
+box-shadow: 0px 6px 20px black;
+}
+
+.imgWrap {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.imgWrap img {
+		width: 100%;
+		border: 2px solid white;
+		border-radius: 10px;
+}
+
+.portfolioTitle {
+	color: white;
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+	//left:0px;
+	text-shadow: 0px 4px 2px black;
+}
+.portfolioTitle h1 {
+		position: relative;
+		top: 50%;
+}
+
+
+@media (min-width: 768px) {
+.colWrap {
+	height: 400px;
+}
+}

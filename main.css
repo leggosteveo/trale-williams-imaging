@@ -1,0 +1,75 @@
+.navbar {
+  min-height: 80px;
+  margin-bottom: 0px;
+  box-shadow: 0px 6px 20px black;
+  z-index: 99;
+  background-color: white;
+}
+
+
+body {
+  background-image: url('photos/traleBackground.png');
+  color: white;
+  font-family: arial black;
+    height: 100%;
+
+}
+.navbar-header {
+  min-height: 80px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #4a1eec;
+  font-family: arial black;
+}
+
+
+@media (min-width: 768px) {
+
+.navbar {
+  min-height: 80px;
+  margin-bottom: 0px;
+  box-shadow: 0px 6px 20px black;
+  z-index: 99;
+}
+.navbar-nav {
+  color:#743bff;
+  padding-top: 15px;
+  position: absolute;
+  right: 15px;
+}
+
+.navbar-default {
+  background-color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+  font-size: 35px;
+}
+
+.navbar {
+  background-color: white;
+  color: white;
+  min-height: 80px;
+  margin-bottom: 0px;
+  box-shadow: 0px 6px 20px black;
+  z-index: 99;
+}
+
+.navbar-header {
+  height: 80px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #4a1eec;
+  font-family: arial black;
+  text-shadow: 0px 2px 2px black;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #4a1eec;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: #ddd;
+}

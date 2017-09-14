@@ -1,0 +1,19 @@
+{
+  "name": "tralewilliamsimaging",
+  "version": "1.0.0",
+  "description": "Trales Photography Site",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leggosteveo/tralewilliamsimaging.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leggosteveo/tralewilliamsimaging/issues"
+  },
+  "homepage": "https://github.com/leggosteveo/tralewilliamsimaging#readme"
+}
