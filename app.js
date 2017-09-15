@@ -1,19 +1,12 @@
- angular.module('traleApp', ['ngRoute']).config(config);
- function config($routeProvider) {
- 	$routeProvider
- 	.when('/', {
- 		templateUrl: 'views/traleMain.html'
- 	})
- 	.when('/tralePortfolio', {
- 		templateUrl: 'views/tralePortfolio.html'
- 	})
- 	.when('/tralePricing', {
- 		templateUrl: 'views/tralePricing.html'
- 	})
- 	.when('/traleContact', {
- 		templateUrl: 'views/traleContact.html'
- 	})
- 	.otherwise({
- 		redirectTo:'/'
- 	});
- }
+var express = require('express');
+
+// Define the port to run on
+app.set('port', (process.env.PORT || 5000));
+
+
+
+
+// Set static directory before defining routes
+app.use(express.static(path.join(__dirname, 'public')));
+app.use('/node_modules', express.static(__dirname + '/node_modules'));
+app.use('/fonts', express.static(__dirname + '/fonts'));
