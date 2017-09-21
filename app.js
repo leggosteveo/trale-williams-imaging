@@ -8,7 +8,8 @@ app.set('port', (process.env.PORT || 5000));
 
 // Set static directory before defining routes
 app.use(express.static(__dirname + 'public'));
-app.set('views', __dirname + '/views');
+app.use('/node_modules', express.static(__dirname + '/node_modules'));
+app.use('/fonts', express.static(__dirname + '/fonts'));
 
 
 // Listen for requests
