@@ -77,7 +77,7 @@ nav {
 
 
 #view {
-  height: calc(100% - 300px);
+  height: calc(100% - 200px);
   margin-top: 80px;
 }
 
@@ -86,7 +86,7 @@ nav {
   color: #4a1eec;
   text-shadow: 4px 2px 20px black;
   position: relative;
-  top: 120px;
+  top: 60px;
   width: 100%;
   font-size: 20px;
   text-align: center; 
