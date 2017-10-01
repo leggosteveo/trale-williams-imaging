@@ -38,6 +38,7 @@ nav {
   position: absolute;
   right: 15px;
   background-color: #4a1eec;
+  z-index: 2;
 }
 
 .navbar-header button {
