@@ -1,5 +1,24 @@
+<head>
+<style type="text/css">
+  nav {
+  position:absolute; 
+  width: 100%;
+  background-color: transparent;
+  top: calc(100% - 384px);
+}
+#view {
+  margin-top: 0px;
+}
 
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+@media (min-width: 768px) {
+  nav {
+    top: calc(100% - 124px);
+  }
+}
+</style>
+</head>
+ 
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -17,8 +36,9 @@
       <img src="photos/Trale_Riss3.jpg" alt="...">
       <div class="carousel-caption">
       Rissa
+      </div>
     </div>
-</div></div>
+  </div>
   <!-- Controls -->
   <a class="left carousel-control" role="button" data-
 slide="prev" onclick="$('#carousel-example-generic').carousel('prev')">
@@ -31,4 +51,8 @@ slide="next" onclick="$('#carousel-example-generic').carousel('next')">
 ￼    <span class="sr-only">Next</span>
   </a>
 </div>
-  </div>
+<div id="footer" style="width:100%; height:200px; text-align: middle; margin: auto; font-size:15px;">
+<h1>
+TRALEWILLIAMSIMAGING.COM
+</h1>
+</div>
