@@ -170,16 +170,6 @@ nav {
   height: 100%;
 }
 
-.navbar-nav {
-  color:#743bff;
-  padding-top: 25px;
-  position: absolute;
-  right: 15px;
-  background-color: #4a1eec;
-  z-index: 2;
-}
-
-
 .navbar {
   min-height: 120px;
   //bottom: 10px;
