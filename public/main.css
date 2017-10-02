@@ -35,7 +35,7 @@ nav {
 .navbar-nav {
   color:#743bff;
   padding-top: 25px;
-  position: absolute;
+  //position: absolute;
   right: 15px;
   background-color: #4a1eec;
   z-index: 2;
@@ -130,6 +130,15 @@ nav {
   margin-bottom: 0px;
   //box-shadow: 0px 6px 20px black;
   z-index: 99;
+}
+
+.navbar-nav {
+  color:#743bff;
+  padding-top: 25px;
+  //position: absolute;
+  right: 15px;
+  background-color: #4a1eec;
+  z-index: 2;
 }
 
 .navbar-header {
