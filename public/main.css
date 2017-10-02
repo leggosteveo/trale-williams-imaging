@@ -14,7 +14,7 @@ nav {
   top: 10px;
 }
 
-.navbar-inverse .navbar-toggle .icon-bar {
+.navbar-default .navbar-toggle .icon-bar {
   background-color: #4a1eec;
 }
 
@@ -35,20 +35,20 @@ nav {
 .navbar-nav {
   color:#743bff;
   padding-top: 25px;
-  position: absolute;
+  //position: absolute;
   right: 15px;
   background-color: #4a1eec;
   z-index: 2;
 }
 
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+.navbar-default .navbar-collapse, .navbar-inverse .navbar-form {
   border: none;
 }
 
 .navbar-header button {
   margin-top: 25px;
 }
-.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+.navbar-default .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
   background-color: silver;
 }
 
@@ -57,7 +57,7 @@ nav {
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: #4a1eec;
+  color: white;
   font-family: arial black;
 }
 
@@ -143,8 +143,8 @@ nav {
   //text-shadow: 0px 2px 2px white;
 }
 
-.navbar-inverse .navbar-nav >li>a {
-  color: #4a1eec;
+.navbar-default .navbar-nav >li>a {
+  color: white;
 }
 
 .navbar-inverse .navbar-nav >li>a:hover {
