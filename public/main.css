@@ -1,8 +1,9 @@
 body {
   //background-image: url('photos/traleBackground2.png');
   color: #4a1eec;
-  font-family: arial black;
-    height: 100%;
+  font-family: arial;
+  font-weight: 5;
+  height: 100%;
 
 }
 
@@ -46,7 +47,7 @@ nav {
 }
 
 .navbar-header button {
-  margin-top: 25px;
+  margin-top: 20px;
 }
 .navbar-default .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
   background-color: silver;
@@ -59,6 +60,10 @@ nav {
 .navbar-default .navbar-nav>li>a {
   color: white ;
   font-family: arial black;
+}
+
+.navbar-toggle {
+  background-color: #ddd;
 }
 
 .navbar-brand {
@@ -77,7 +82,7 @@ nav {
 
 
 #view {
-  height: calc(100% - 200px);
+  height: calc(100% - 210px);
   margin-top: 80px;
 }
 
@@ -96,6 +101,10 @@ nav {
 
 @media (min-width: 508px) {
 
+body {
+  font-family: arial black;
+  font-weight: 1;
+}
 
 nav {
   top: 10px;
@@ -134,10 +143,11 @@ nav {
 
 .navbar-nav {
   color:#743bff;
-  padding-top: 25px;
+  padding-top: 40px;
   //position: absolute;
-  right: 15px;
-  background-color: #4a1eec;
+  //right: 15px;
+  top: 0;
+  background-color: #743bff;
   z-index: 2;
 }
 
@@ -190,10 +200,13 @@ nav {
 }
 
 .navbar-brand img {
-  height: 120px;
-  width: 120px;
+  height: 80px;
+  width: 80px;
 }
 
+.navbar-header button {
+    margin-top: 50px;
+}
 
 .mainNav {
   background: transparent;
@@ -204,4 +217,19 @@ nav {
 
 #footer {
   display: none;
+}
+
+
+@media (min-width: 768px) {
+  .navbar-default .navbar-nav >li>a {
+    color: #743bff;
+}
+
+.navbar-nav {
+    color: #743bff;
+    padding-top: 40px;
+    //position: absolute;
+    //right: 15px;
+    background-color: transparent;
+}
 }
