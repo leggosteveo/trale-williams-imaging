@@ -138,6 +138,7 @@ nav {
 .navbar-nav {
   color:#743bff;
   padding-top: 40px;
+  margin-top: 0px;
   position: absolute;
   right: 15px;
   width: 100%;
@@ -186,7 +187,7 @@ nav {
 
 .navbar {
   min-height: 120px;
-  //bottom: 10px;
+  top: 0px;
   //margin-bottom: 80px;
   //box-shadow: 0px 6px 20px black;
   z-index: 99;
@@ -226,5 +227,6 @@ nav {
     //position: absolute;
     //right: 15px;
     background-color: transparent;
+    width: inherit;
 }
 }

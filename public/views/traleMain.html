@@ -1,6 +1,6 @@
 <head>
 <style type="text/css">
-  nav {
+  .navbar {
   position:absolute; 
   width: 100%;
   background-color: transparent;
@@ -11,11 +11,11 @@
 }
 
 .navbar-nav {
-  z-index: 99;
+  z-index: 95;
 }
 
 @media (min-width: 508px) {
-  nav {
+  .navbar {
     top: calc(100% - 400px);
   }
 
@@ -25,7 +25,7 @@
   }
 
   .navbar-nav {
-    margin-top: 40px;
+    margin-top: 0px;
   }
 
 
@@ -34,6 +34,11 @@
 @media (min-width: 658px) {
   .navbar-nav {
     width: default;
+    margin-top: 40px;
+  }
+
+  .navbar {
+    top: calc(100% - 130px);
   }
 }
 </style>
