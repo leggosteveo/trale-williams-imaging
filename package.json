@@ -2,10 +2,10 @@
   "name": "tralewilliamsimaging",
   "version": "1.0.0",
   "description": "Trales Photography Site",
-  "main" : "app.js",
+  "main": "app.js",
   "scripts": {
-    "start" : "app.js",
-    "test" : "echo \"Error: no test specified\" && exit 1"
+    "start": "app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,11 @@
   "dependencies": {
     "angular-route": "^1.6.6",
     "angularjs": "0.0.1",
-    "express": "^4.15.4"
+    "body-parser": "^1.18.2",
+    "consolidate": "^0.15.0",
+    "express": "^4.15.4",
+    "mailgun-js": "^0.13.1",
+    "mustache": "^2.3.0",
+    "nodemailer": "^4.4.0"
   }
 }

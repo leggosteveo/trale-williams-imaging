@@ -38,8 +38,10 @@ nav {
   padding-top: 25px;
   //position: absolute;
   right: 15px;
-  background-color: transparent;
+  background-color: white;
   z-index: 2;
+  box-shadow: 0px 2px 6px 0px black;
+
 }
 
 .navbar-default .navbar-collapse, .navbar-inverse .navbar-form {
@@ -145,7 +147,8 @@ nav {
   right: 15px;
   width: 100%;
   top: 0;
-  background-color: transparent;
+  background-color: white;
+  box-shadow: 0px 2px 6px black;
   z-index: 90;
 }
 
@@ -230,5 +233,6 @@ nav {
     //right: 15px;
     background-color: transparent;
     width: inherit;
+    box-shadow: none;
 }
 }
