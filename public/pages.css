@@ -39,6 +39,7 @@ form input, form textarea {
 	border-bottom-right-radius: 12px;
 	border-bottom-left-radius: 12px;
 	padding: 6px;
+	width: 80%;
 }
 
 .carousel-inner>.item>img {
@@ -61,7 +62,8 @@ form input, form textarea {
 .pageHeading {
 	color: black;
 	//color: #4a1eec;
-	font-family: arial black;
+	font-family: arial;
+	font-size: 1.4em;
 	font-weight: bold;
 	//text-shadow: 0px 2px 6px black;
 	margin: 50px auto 40px;
