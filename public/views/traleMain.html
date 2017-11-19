@@ -11,6 +11,10 @@
   //top: calc(100% - 304px);
 }
 
+.carousel-caption {
+  font-size: .6em;
+  bottom: 30px;
+}
 .navbar-header button {
     margin-top: 30px;
 }
@@ -41,12 +45,17 @@
   object-fit:cover;
 }
 @media (min-width: 508px) {
+
+  .carousel-caption {
+    //font-size: 1em;
+  }
+
   .navbar {
     //top: calc(100% - 400px);
   }
 
    .navbar-header button {
-    margin-top: 70px;
+    margin-top: 50px;
   }
 
   .navbar-brand {
@@ -62,6 +71,7 @@
   }
 
   .navbar-default .navbar-nav >li>a {
+  font-size: .8em;  
   color: #4a1eec;
   color: white;
   font-weight: bold;
@@ -71,6 +81,11 @@
 }
 
 @media (min-width: 740px) {
+
+  .carousel-caption {
+    bottom: 40px;
+    font-size: 1em;
+  }
   .navbar-nav {
     width: default;
     margin-top: 40px;
@@ -78,8 +93,13 @@
     color: 
   }
 
+  .navbar-default .navbar-nav >li>a {
+    font-size: 1em;
+    bottom: -20px;
+  }
+
   .navbar {
-    top: calc(100% - 120px);
+    top: calc(100% - 130px);
   }
 }
 </style>

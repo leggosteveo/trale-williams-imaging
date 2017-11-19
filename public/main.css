@@ -52,7 +52,7 @@ nav {
 }
 
 .navbar-header button {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .navbar-default .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
   background-color: silver;
@@ -64,7 +64,8 @@ nav {
 
 .navbar-default .navbar-nav>li>a {
   color: white ;
-  font-family: arial black;
+  font-family: arial;
+  font-weight: bold;
 }
 
 .navbar-toggle {
